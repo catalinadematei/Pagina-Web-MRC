@@ -12,7 +12,7 @@ h2 {
     font-weight: 700;
     line-height: 65px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     color: #2F327D;
 }
 h3 {
@@ -23,16 +23,6 @@ h3 {
     letter-spacing: 0em;
     text-align: center;
     color: #F0C53E;
-    ;
-}
-h4 {
-    font-family: Montserrat;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #7F2736;
     ;
 }
 h5 {
@@ -63,18 +53,13 @@ h6 {
     text-align: left;
     color: white
 }
-p{
+p {
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 400;
     line-height: 43px;
     letter-spacing: 0em;
     text-align: center;
-    color: #2C2D32;
-}
-a {
-    color: white;
-
 }
 .fecha1 {
     font-family: Montserrat;
@@ -98,20 +83,21 @@ a {
 }
 
 /* imagenes */
-.img-header {
-    background-color: #000B45;
-    width: 100%;
-    height: 600px;
+
+.header-style {
+font-size: 70px;
 }
 
-.img-style{
+.img-style {
     height: 400px;
     margin-top: 20px;
 }
 
 .img-nosotros {
     height: 300px;
-    width: 500px;
+    width: 300px;
+    align-items: center;
+    border-radius: 15px;
 }
 
 .img-gira {
@@ -131,56 +117,176 @@ nav {
     position: fixed;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 20px 20px 20px 700px;
+    background-color: #000B45;
+    width: 100%;
 }
-  
 nav ul {
     display: flex;
+    margin-left: 260px;
+    margin-top: 85px;
+    padding-right: 80px;
+    font-family: Montserrat;
+    font-size: 20px;
 }
-  
 nav ul li:hover {
     background: #7F2736;
 }
-
-li{
+li {
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     color: white;
     text-decoration: none;
-
     display: flex;
     margin: 20px;
     text-align: center;
 }
-
-.header-style{
-    display: flex;
-    flex-direction: row;
+span li{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
-.element-style{
+.fondo-style{
+    display: flex;
+    width: 100%;
+}
+.posicion-fondo {
+    top: -120px;
+}
+.element-style {
     display: flex;
     justify-content: center;
 }
-
-.element-title-style{
+.element-title-style {
     display: flex;
     flex-direction: column;
 }
-.title-style{
+.title-style {
     padding-top: 50px;
     padding-left: 50px;
 }
-.p-style{
+.p-style {
     padding-left: 20px;
 }
 .img-logo-style{
     justify-content: center;
     padding-left: 300px;
 }
-button{
-    
+/*
+header{
+    background-image: url(fondoheader.jpg);
+}
+*/
+
+/*nosotros--------------------------------------------*/
+.nosotros {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F327D;
+    margin-left: 280px;
+}
+.textonosotros {
+    text-align: center;
+    padding-left: 20px;
+}
+div ul {
+    display: flex;
+    align-items: center;
+}
+.nosotroshtml{
+    align-items: center;
+    border-radius: 15px;
+}
+.nosotrosI{
+    color: #7F2736;
+    margin-top: 5px;
+    border-left: 70px;
+    font-weight: bold;
+}
+/*Mira quienes somos*/
+.Miraquienessomos{
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7F2736;
+    margin-left: 80px;
+}
+.Miraquienessomos div{
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 79px;
+    letter-spacing: 0em;
+}
+.Miraquienessomostexto{
+    text-align: left;
+    margin: 20px;
+    margin-left: 80px;
 }
 
+/*container australiana-----------------------------------*/
+.container-img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 40px;
+}
+.container-img-aus{
+    width: 700px;
+    height: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+}
+.torneos-container{
+    display: felx;
+}
 
+/*footer----------------------------------*/
+footer{
+    background-color: #000B45;
+    height: 500px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer-primero{
+    display: flex;
+    flex-direction: row;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mercedesrc{
+    color: #F0C53E;
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+}
 
+/*nosotros inf, rugby y hockey*/
+.imagenes-nosotros{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 60px;
+}
